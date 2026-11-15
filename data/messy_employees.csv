@@ -1,0 +1,7 @@
+ID,Name,Department,Salary,Email
+101,anita joseph,SALES,45000,anita@example.com
+102,Rahul Nair,IT,60000,rahul@example.com
+102,Rahul Nair,IT,60000,rahul@example.com
+103,Meera,hr,,meera@example.com
+104,,Finance,52000,invalid-email
+105,Arjun Das,marketing,not_known,arjun@example.com
