@@ -56,12 +56,6 @@ def main():
     # Validate employee records
     valid_rows, rejected_rows = validate_employees(df)
 
-    # Fill missing salaries in accepted records
-    numeric_salaries = pd.to_numeric(df["Salary"], errors="coerce")
-    median_salary = numeric_salaries.median()
-
-    valid_rows = valid_rows.copy()
-    valid_rows["Salary"] = valid_rows["Salary"].fillna(median_salary)
 
     accepted_count = len(valid_rows)
     rejected_count = len(rejected_rows)
